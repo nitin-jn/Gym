@@ -1,0 +1,111 @@
+body {
+    font-family: 'Baloo Tamma 2', cursive;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    background: url('/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 1600px 930px;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    left: 35px;
+    top: 1px;
+    position: absolute;
+    top: 18px;
+}
+
+.left img {
+    width: 90px;
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+    font-size: 23px;
+    line-height: 32px;
+    color: pink;
+    
+}
+
+.mid {
+    /* border: 2px solid green; */
+    display: block;
+    width: 45%;
+    margin: 18px auto;
+}
+
+.navbar {
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: pink;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+
+.right {
+    display: inline-block;
+    /* border: 2px solid yellow; */
+    right: 27px;
+    top: 25px;
+    position: absolute;
+}
+.btn{
+    margin: 8px 1px;
+    background-color: black;
+    color: pink;
+    padding: 6px 12px;
+    border-radius: 35px;
+    cursor: pointer;
+    border: 2px solid gray;
+    font-size: 18px;
+}
+
+.container{
+    /* border: 2px solid white; */
+    padding: 10px 15px;
+    margin: 250px 110px;
+    border-radius: 10px;
+    width: 52%;
+}
+
+.form-group input{
+    display: block;
+    text-align: center;
+    width: 422px;
+    padding: 2px;
+    margin: 2px auto;
+    border-radius: 19px;
+    font-size: 18px;
+    font-family: "Baloo Tamma 2", cursive;
+}   
+.container h1{
+    text-align: center;
+}
+.container .button{
+    padding: 6px;
+    border-radius: 42px;
+    display: block;
+    width: 46%;
+    margin: 6px auto;
+    font-size: 18px;
+    background-color: grey;
+    color: white;
+}
